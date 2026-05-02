@@ -22,7 +22,7 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
-
+BuildRequires:  pkgconfig(appmenu-glib-translator)
 
 %description
 Library and cli tool for managing the systemtray.
@@ -34,10 +34,8 @@ Requires:       %{name}%{?_isa} = %{version}-%{release}
 %description    devel
 Development headers and VAPI files for %{name}.
 
-
 %prep
 %autosetup -n astal-%{commit}
-
 
 %build
 cd %{dir}

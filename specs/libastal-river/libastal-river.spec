@@ -22,8 +22,7 @@ BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(wayland-client)
-
-
+BuildRequires:  pkgconfig(wayland-protocols)
 
 %description
 Library and cli tool for getting status information of the river wayland compositor.
