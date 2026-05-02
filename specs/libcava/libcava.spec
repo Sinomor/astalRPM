@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(sndio)
 BuildRequires:  pkgconfig(sdl2)
 BuildRequires:  pkgconfig(jack)
 BuildRequires:  pkgconfig(portaudio-2.0)
+BuildRequires:  pkgconfig(libpipewire-0.3)
 
 %description
 Fork to provide cava as a shared library, e.g. used by waybar. Cava is not provided as executable.
