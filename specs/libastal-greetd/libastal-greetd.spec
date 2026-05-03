@@ -2,7 +2,7 @@
 %global commit 6e9ed352252f663b0be9dcbc8c60c4ea4a0dcc47
 %global date 20260430
 
-Name:           libastal-greet
+Name:           libastal-greetd
 Version:        0.1.0 
 Release:        1.%{date}git%(c=%{commit}; echo ${c:0:7})%{?dist}
 Summary:        DBus proxy library for upower daemon.
