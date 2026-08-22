@@ -51,12 +51,12 @@ cd %{dir}
 
 %{_bindir}/astal-niri
 %{_libdir}/libastal-niri.so.*
-%{_libdir}/girepository-1.0/AstalNiri-0.1.typelib
+%{_libdir}/girepository-1.0/AstalNiri-0.2.typelib
 
 # Devel files
 %files devel
 %{_libdir}/libastal-niri.so
-%{_libdir}/pkgconfig/astal-niri-0.1.pc
-%{_datadir}/vala/vapi/astal-niri-0.1.vapi
-%{_datadir}/gir-1.0/AstalNiri-0.1.gir
+%{_libdir}/pkgconfig/astal-niri-0.2.pc
+%{_datadir}/vala/vapi/astal-niri-0.2.vapi
+%{_datadir}/gir-1.0/AstalNiri-0.2.gir
 %{_includedir}/astal-niri.h
