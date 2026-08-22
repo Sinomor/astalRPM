@@ -5,7 +5,6 @@ Summary:        Libastal meta package, including all libastal services
 
 License:        LGPL-2.1-only
 URL:            https://aylur.github.io/astal
-BuildArch:      noarch
 
 Requires:       libastal-3
 Requires:       libastal-4
