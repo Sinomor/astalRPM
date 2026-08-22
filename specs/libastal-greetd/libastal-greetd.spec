@@ -1,6 +1,6 @@
 %global dir lib/greet
-%global commit 6e9ed352252f663b0be9dcbc8c60c4ea4a0dcc47
-%global date 20260430
+%global commit 0876946fcea17c54626cc0119e9c54e378ea524f
+%global date 20260822
 
 Name:           libastal-greetd
 Version:        0.1.0 
