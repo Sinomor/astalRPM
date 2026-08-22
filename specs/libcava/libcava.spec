@@ -55,7 +55,7 @@ ls output/shaders/bar_spectrum.frag
 # just filesss
 %files
 %license LICENSE
-%{_libdir}/libcava.so.0*
+%{_libdir}/libcava.so.*
 
 # devellll
 %files devel
