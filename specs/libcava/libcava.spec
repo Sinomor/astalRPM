@@ -2,7 +2,7 @@
 %global _lto_cflags %{nil}
 
 Name:           libcava
-Version:        0.10.7 
+Version:        1.0.0 
 Release:        1%{?dist}
 Summary:        Fork to provide cava as a shared library, e.g. used by waybar. Cava is not provided as executable.
 
