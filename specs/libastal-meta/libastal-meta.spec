@@ -58,11 +58,3 @@ Requires:       libastal-wl-devel
 
 %description    devel
 Libastal meta package for all astal development files.
-
-%files
-%license LICENSE
-%doc README.md
-
-%files devel
-%license LICENSE
-%doc README.md
