@@ -1,9 +1,9 @@
 Name:           libastal-meta
 Version:        0.1.0
 Release:        1%{?dist}
-Summary:        Libastal meta package, including all libastal services.
+Summary:        Libastal meta package, including all libastal services
 
-License:        LicenseRef-None
+License:        LGPL-2.1-only
 URL:            https://aylur.github.io/astal
 BuildArch:      noarch
 
@@ -32,8 +32,8 @@ Requires:       libastal-wl
 Libastal meta package, including all libastal services.
 
 %package        devel
-Summary:        Libastal meta package for all astal development files.
-Requires:       %{name}%{?_isa} = %{version}-%{release}
+Summary:        Libastal meta package for all astal development files
+Requires:       %{name} = %{version}-%{release}
 
 Requires:       libastal-3-devel
 Requires:       libastal-4-devel
@@ -55,6 +55,9 @@ Requires:       libastal-river-devel
 Requires:       libastal-tray-devel
 Requires:       libastal-wireplumber-devel
 Requires:       libastal-wl-devel
+
+%description    devel
+Libastal meta package for all astal development files.
 
 %files
 %license LICENSE
