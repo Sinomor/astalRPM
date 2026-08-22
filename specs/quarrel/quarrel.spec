@@ -1,11 +1,11 @@
-%global dir lib/brightness
+%global dir lib/quarrel
 %global commit 0876946fcea17c54626cc0119e9c54e378ea524f
 %global date 20260822
 
-Name:           libastal-brightness
+Name:           quarrel
 Version:        0.1.0 
 Release:        1.%{date}git%(c=%{commit}; echo ${c:0:7})%{?dist}
-Summary:        Library and CLI tool for reading and controlling backlight and LED brightness devices exposed through sysfs.
+Summary:        A CLI argument parser with subcommand support.
 
 License:        LGPL-2.1-only
 URL:            https://aylur.github.io/astal 
@@ -16,14 +16,13 @@ BuildRequires:  gcc
 BuildRequires:  vala
 BuildRequires:  valadoc
 
-BuildRequires:  pkgconfig(quarrel-0.1)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(glib-2.0)
 
 
 %description
-Library and CLI tool for reading and controlling backlight and LED brightness devices exposed through sysfs.
+A CLI argument parser with subcommand support.
 
 %package        devel
 Summary:        Development files for %{name}
@@ -50,14 +49,13 @@ cd %{dir}
 %files
 %license LICENSE
 
-%{_bindir}/astal-brightness
-%{_libdir}/libastal-brightness.so.*
-%{_libdir}/girepository-1.0/AstalBrightness-0.1.typelib
+%{_datadir}/gir-1.0/Quarrel-0.1.gir
+%{_libdir}/girepository-1.0/Quarrel-0.1.typelib
+%{_libdir}/libquarrel.so.0{,.*}
 
 # Devel files
 %files devel
-%{_libdir}/libastal-brightness.so
-%{_libdir}/pkgconfig/astal-brightness-0.1.pc
-%{_datadir}/vala/vapi/astal-brightness-0.1.vapi
-%{_datadir}/gir-1.0/AstalBrightness-0.1.gir
-%{_includedir}/astal-brightness.h
+%{_includedir}/quarrel.h
+%{_libdir}/libquarrel.so
+%{_libdir}/pkgconfig/quarrel-0.1.pc
+%{_datadir}/vala/vapi/quarrel-0.1.vapi
