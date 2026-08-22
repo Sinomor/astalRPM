@@ -1,9 +1,9 @@
 %global dir src/
-%global commit b413fbfcf055d92d7028ee3356bfa148e90e2e31
-%global date 20260430
+%global commit 249eb454468bab9720a11208ac2caac4c4a0f6a1
+%global date 20260822
 
 Name:           libastal-niri
-Version:        0.1.0 
+Version:        0.2.0 
 Release:        1.%{date}git%(c=%{commit}; echo ${c:0:7})%{?dist}
 Summary:        Library and cli tool for Niri IPC sockets.
 
