@@ -57,3 +57,13 @@ Requires:       libastal-wl-devel
 
 %description    devel
 Libastal meta package for all astal development files.
+
+%prep
+
+%build
+
+%install
+
+%files
+
+%files devel
