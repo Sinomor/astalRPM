@@ -16,6 +16,7 @@ BuildRequires:  gcc
 BuildRequires:  vala
 BuildRequires:  valadoc
 
+BuildRequires:  pkgconfig(quarrel-0.1)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(glib-2.0)
