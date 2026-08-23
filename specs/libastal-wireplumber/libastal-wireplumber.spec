@@ -1,6 +1,6 @@
 %global dir lib/wireplumber
-%global commit 0876946fcea17c54626cc0119e9c54e378ea524f
-%global date 20260822
+%global commit bcd02cbd1391e85f52c5ff63e00708b5b62f55ec
+%global date 20260823
 
 Name:           libastal-wireplumber
 Version:        0.1.0 

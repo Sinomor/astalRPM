@@ -1,6 +1,6 @@
 %global dir src/
 %global commit 249eb454468bab9720a11208ac2caac4c4a0f6a1
-%global date 20260822
+%global date 20260823
 
 Name:           libastal-niri
 Version:        0.2.0 
